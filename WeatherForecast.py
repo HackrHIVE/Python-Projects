@@ -1,6 +1,6 @@
 def geocode(address):
     import googlemaps as gm
-    gmaps_key = gm.Client(key='AIzaSyBh7KtLf7ZRYQfY7curj8BAbZpVHgKXLi8')
+    gmaps_key = gm.Client(key='GoogleAPIkey')
 
     geocoder_res = gmaps_key.geocode(address)
     try:
@@ -17,7 +17,7 @@ def fetchData(lat,lng):
     from urllib.request import urlopen
     import json
 
-    weatherAPI = 'ebfcac32bda131ed5a160f2757938396'
+    weatherAPI = 'openweathermapAPIkey'
     url = 'https://api.openweathermap.org/data/2.5/weather?lat={}&lon={}&appid={}'.format(lat,lng,weatherAPI)
     with urlopen(url) as respons:
         pureResponse = respons.read()
