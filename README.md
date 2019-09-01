@@ -11,7 +11,7 @@ Takes input from user and opens the result on their browser.
 Takes input from user for their Latitude,Longitude or CityName and then fetches details of weather forecasted from OpenWeatherMap API using the details provided by user.
 
 Sample Output for 
-### City - Chandigarh
+### City - Chandigarh (on 1st September 2019)
 
 ======Hello , Welcome to WeatherForecast======  
 1.Using Latitute,Longitude  
