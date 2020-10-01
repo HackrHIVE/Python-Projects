@@ -259,7 +259,6 @@ Pressure : 1004.87 hPa
 SUNRISE : 09/16/2019 06:07:28  
 SUNSET : 09/16/2019 18:28:42  
 *Time displayed for Sunrise and Sunset is based on your PC's local timezone  
-It's an easy project for your resume.
   
 Process finished with exit code 0  
 
